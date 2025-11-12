@@ -8,15 +8,5 @@ export default function Header({ name }) {
         <Link href="/">{name}</Link>
       </p>
     </header>
-  <script type="module"
-      src="https://agent.d-id.com/v2/index.js"
-      data-mode="fabio"
-      data-client-key="Z29vZ2xlLW9hdXRoMnwxMTM2MzE3ODYyMzAxMjkwNDc3NTk6SWFFOVpiNmw2Yk5pOWRLaW5JTmdQ"
-      data-agent-id="v2_agt_br-R4l6H"
-      data-name="did-agent"
-      data-monitor="true"
-      data-orientation="horizontal"
-      data-position="right">
-</script>
   );
 }
